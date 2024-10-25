@@ -120,7 +120,7 @@
             if (typeof(T) == typeof(int))
             {
                 int sum = 0;
-                for (int i = 0; i < _arr.Length; i++)
+                for (int i = 0; i < _count; i++)
                 {
                     sum += Convert.ToInt32(_arr[i]);
                 }
@@ -129,7 +129,7 @@
             else if (typeof(T) == typeof(float))
             {
                 float sum = 0;
-                for (int i = 0; i < _arr.Length; i++)
+                for (int i = 0; i < _count; i++)
                 {
                     sum += Convert.ToSingle(_arr[i]);
                 }
@@ -138,7 +138,7 @@
             else if (typeof(T) == typeof(double))
             {
                 double sum = 0;
-                for (int i = 0; i < _arr.Length; i++)
+                for (int i = 0; i < _count; i++)
                 {
                     sum += Convert.ToDouble(_arr[i]);
                 }
@@ -147,7 +147,7 @@
             else if (typeof(T) == typeof(decimal))
             {
                 decimal sum = 0;
-                for (int i = 0; i < _arr.Length; i++)
+                for (int i = 0; i < _count; i++)
                 {
                     sum += Convert.ToDecimal(_arr[i]);
                 }
